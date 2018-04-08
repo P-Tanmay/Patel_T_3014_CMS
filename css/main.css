@@ -1,0 +1,305 @@
+body {
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************************************************************************************** MOVIES SECTION START ****************************************************************************************************/
+
+
+#head {
+  padding: 10px 0px 0px 150px;
+  float: left;
+  font-size: 45px;
+  font-weight: bold;
+  color: red;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    /* padding: 0px 1500px 0px 0px; */
+    float: right;
+}
+
+.nav2 {
+  margin-right: 120px;
+}
+
+
+li a, .dropbtn {
+  margin-right: 15px;
+  color: white;
+  background-color: red;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+  padding: 35px 30px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  transition: 0.5s;
+  color: red;
+    background-color: White;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.navi {
+  margin-bottom: 30px;
+  /* margin-top: 30px; */
+  background-color: #e2e2e2;
+}
+
+
+
+/****************************************************************************************************** HEADER SECTION END ****************************************************************************************************/
+
+
+/****************************************************************************************************** MOVIES SECTION START ****************************************************************************************************/
+
+
+
+
+.poster_img {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.poster_img  img {
+  border: 0.5px solid red;
+  width: 110px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.poster_img  img:hover {
+  border: none;
+  transition: 0.2s;
+  opacity: 0.5;
+  transform: scale(1.1, 1.1);
+}
+
+
+/****************************************************************************************************** MOVIES SECTION END ****************************************************************************************************/
+
+
+
+/****************************************************************************************************** FOOTER SECTION END ****************************************************************************************************/
+
+
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  color: white;
+  margin-top: 50px;
+  background-color: #333;
+}
+
+
+.head6 {
+  color: red;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+/****************************************************************************************************** FOOTER SECTION END ****************************************************************************************************/
+
+
+
+#back {
+  float: right;
+}
+
+.detail_nav2 {
+  float: left;
+}
+
+.detail_nav3 {
+  float: right;
+}
+
+.movie_details_page{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.details_details {
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  width: 80%;
+}
+
+.video {
+  padding: 50px;
+  width: 700px;
+}
+
+
+
+/*************************************************************************** CLIENT PAGE SECTION START ************************************************************************************************************************/
+/*************************************************************************** CLIENT PAGE SECTION START ************************************************************************************************************************/
+
+
+
+
+
+/********************************************************************** CLIENT PAGE LOGIN SECTION START ************************************************************************************************************************/
+
+#Loghead {
+  color: White;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.login_section {
+  margin: auto;
+  margin-top: 200px;
+  background-color: red;
+  width: 500px;
+  padding: 50px 0px 50px 0px;
+  text-align: center;
+  border-radius: 5px;
+
+}
+
+
+.input {
+  font-size: 18px;
+  width: 300px;
+  padding: 10px;
+}
+
+.input:focus {
+  width: 300px;
+  padding: 10px;
+}
+
+
+.login_triger {
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.login_triger:hover {
+  transition: 0.5s;
+  color: white;
+  background-color: red;
+  border: 1px solid white;
+  cursor: pointer;
+  padding: 10px;
+}
+
+
+/********************************************************************** CLIENT PAGE LOGIN SECTION END ************************************************************************************************************************/
+
+/********************************************************************** CLIENT PAGE ADD SECTION END ************************************************************************************************************************/
+
+.homeLnk {
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.homeLnk:hover {
+  transition: 0.5s;
+  padding-left: 20px;
+  color: white;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+
+
+#addhead {
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.add_section {
+  padding: 40px;
+  background-color: red;
+  margin: auto;
+  margin-top: 40px;
+  /* padding: 50px 0px 50px 0px; */
+  text-align: center;
+}
+
+.addinput {
+  background-color: #e2e2e2;
+  font-size: 18px;
+  width: 300px;
+  padding: 7px;
+}
+
+.addinput:focus {
+  width: 300px;
+}
+
+
+
+/********************************************************************** CLIENT PAGE ADD SECTION END ************************************************************************************************************************/
+
+
+/*************************************************************************** CLIENT PAGE SECTION END ************************************************************************************************************************/
+/*************************************************************************** CLIENT PAGE SECTION END ************************************************************************************************************************/
